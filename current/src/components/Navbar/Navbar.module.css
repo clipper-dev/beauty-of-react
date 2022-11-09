@@ -1,0 +1,21 @@
+.container {
+  background: linear-gradient(135deg, tomato, plum);
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.menuItem {
+	color: #fafafa;
+	font-size: 1.2rem;
+	font-weight: 600;
+	cursor: pointer;
+	text-decoration: none;
+	transition: scale 0.1s ease-in-out;
+}
+.menuItem:hover{
+	scale: 1.2;
+}
+.menuItemSelected {
+	color: gold;
+}

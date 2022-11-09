@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titleInput {
+    width: 290px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.select {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.submitButton {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: linear-gradient(135deg, tomato,plum);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* darken on hover */
+.submitButton:hover {
+    filter: brightness(90%);
+}
